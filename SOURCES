@@ -1,0 +1,26 @@
+#==========================================================================;
+#
+#  THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+#  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+#  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR
+#  PURPOSE.
+#
+#  Copyright (c) 1992-2000 Microsoft Corporation
+#
+#--------------------------------------------------------------------------;
+#
+#  sources
+#
+#  Description:
+#      This file tells "build" how to build the codec for NT.
+#
+#
+#==========================================================================;
+
+#
+#   Define target file.
+#
+TARGETNAME=kbdflt
+TARGETPATH=OBJ
+TARGETTYPE=DRIVER
+SOURCES=main.c
